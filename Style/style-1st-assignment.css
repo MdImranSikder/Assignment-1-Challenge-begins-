@@ -389,8 +389,10 @@
     flex-direction:column;
     margin-top: 100px;
     background-image: url("../assets/handshake.jpg");
-    background-size: cover;
+
+    background-size: 700px 200px;
     border-radius: 15px;
+    object-fit: contain;
 }    
 
 .support-title{
@@ -443,6 +445,8 @@
     padding: 20px 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
 }
 .contact-link img{
     margin-right: 20px;
