@@ -16,7 +16,7 @@
 .banner-img{
     width: 100%;
     height: 500px;
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url('./assets/Hero-bg.png');
     background-size: cover;
     background-position: top left,bottom right;
     justify-content: center;
